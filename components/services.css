@@ -1,0 +1,128 @@
+/* xxs */
+@media (min-width: 300px) {
+    .srvices-header h1 {
+        text-align: center;
+        color: var(--clr-slate600);
+        font-size: var(--size-3xl);
+        padding-bottom: 1rem;
+    }
+
+    .web-dev {
+        width: 20rem;
+        border-radius: 25px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        height: 25rem;
+        background: #caced1;
+        gap: 2rem;
+    }
+
+    .web-dev:hover {
+        border: 3px solid var(--clr-rose);
+        border-radius: 25px;
+        background-color: var(--clr-light);
+    }
+
+    .services-box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .service-span {
+        color: var(--clr-rose);
+    }
+
+    .web-dev h2 {
+        font-size: var(--size-2xl);
+        padding-bottom: 1rem;
+        color: var(--clr-slate800);
+    }
+
+    .web-dev p {
+        font-size: var(--size-base);
+        color: var(--clr-slate600);
+        padding-bottom: 0.5rem;
+    }
+
+    .serivces-btn {
+        padding-bottom: 1rem;
+    }
+}
+/* xs */
+@media (min-width: 375px) {
+    .srvices-header h1 {
+        text-align: center;
+        color: var(--clr-slate600);
+        font-size: var(--size-3xl);
+        padding-bottom: 1rem;
+    }
+
+    .web-dev {
+        width: 20rem;
+        border-radius: 25px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        height: 25rem;
+        background: #caced1;
+        gap: 1rem;
+    }
+
+    .web-dev:hover {
+        border: 3px solid var(--clr-rose);
+        border-radius: 25px;
+        background-color: var(--clr-light);
+    }
+
+    .services-box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .service-span {
+        color: var(--clr-rose);
+    }
+
+    .web-dev h2 {
+        font-size: var(--size-2xl);
+        padding-bottom: 1rem;
+    }
+
+    .web-dev p {
+        font-size: var(--size-base);
+        color: var(--clr-slate600);
+        padding-bottom: 0.5rem;
+    }
+
+    .serivces-btn {
+        padding-bottom: 1rem;
+    }
+}
+
+/* md */
+@media (min-width: 768px) {}
+
+/* lg */
+@media (min-width: 1024px) {
+    .services-box {
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+    }
+
+    .service-header h1{
+        padding-bottom: 1.5rem;
+    }
+}
+
+/* xl */
+@media (min-width: 1440px) {}

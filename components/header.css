@@ -1,0 +1,135 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 0rem;
+    padding-bottom: 2rem;
+    position: relative;
+    z-index: 9999;
+}
+
+.header0{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    letter-spacing:.1em;
+}
+
+.header_menu{
+    display: none;
+}
+.header_bars{
+    color: var(--clr-dark);
+    width: var(--size-2xl);
+    height: var(--size-2xl);
+    display: block;
+}
+.header_logo{
+    width: 5rem;
+    color: var(--clr-slate600);
+    max-width: 100%;
+    font-weight: 700;
+    height: 5rem;
+    align-items: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    text-decoration: solid;
+}
+.header_logo span{
+    color: var(--clr-rose);
+}
+.header_logo{
+    text-decoration: none;
+}
+.header .header_logo {
+   
+    font-size: var(--size-2xl);
+    text-decoration: none;   
+}
+
+
+
+
+
+
+/* xs */
+/* @media (min-width: 425px) {  } */
+  
+  /* sm */
+  /* @media (min-width: 640px) {  } */
+  
+  /* md */
+  @media (min-width: 768px) { 
+    .header_menu{
+        display: flex;
+        align-items: center;
+        list-style: none;
+        padding: 0;
+        gap: 2em;
+    }
+    .header_links{
+        font-size: var(--size-xs);
+        text-decoration: none;
+        font-weight: 550;
+        color: var(--clr-slate600);
+        letter-spacing: -0.05em;
+        transition: color 0.3s;
+    
+    }
+    .header_links:hover{
+        color: var(--clr-rose);
+    }
+    .header_line{
+        border: 1px solid var(--clr-slate600);
+        padding-top: 1.5em ;
+    }
+    .header_sun{
+        display: block;
+        color: var(--clr-slate600);
+        width: var(--size-base);
+        height: var(--size-base);
+        
+    }
+    .header_resume{
+        font-size: var(--size-xs);
+    }
+    .header_bars{
+        display: none;
+    }
+    
+   }
+  
+  /* lg */
+  @media (min-width: 1024px) { 
+
+    
+    }
+    .header_links{
+        font-size: var(--size-sm);
+      
+    
+    }
+    
+    
+    .header_sun{
+        
+        width: var(--size-xl);
+        height: var(--size-xl);
+        
+    }
+    .header_resume{
+        font-size: var(--size-sm);
+    }
+    .header0{
+        padding-left: 0;
+    }
+
+  /* xl */
+  @media (min-width: 1440px) { 
+    
+   }
+  
+  /* 2xl */
+  /* @media (min-width: 1536px) {  } */
