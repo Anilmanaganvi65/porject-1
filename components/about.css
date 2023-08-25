@@ -18,6 +18,7 @@
    .about-des h1 {
       text-align: center;
       font-size: var(--size-3xl);
+      color: var(--clr-slate800);
    }
 
    .img2-a {
@@ -29,12 +30,15 @@
    .about-des h2 {
       text-align: center;
       font-size: var(--size-2xl);
-      color: var(--clr-slate800);
+      color: var(--clr-light);
+   }
+   .stack{
+      color: var(--clr-light);
    }
 
    .about-p1 {
       text-align: justify;
-      color: var(--clr-slate600);
+      color: var(--clr-slate800);
    }
 
    .about-des a {
@@ -69,7 +73,7 @@
    .about-des h1 {
       text-align: center;
       font-size: var(--size-3xl);
-      color: var(--clr-slate600);
+      color: var(--clr-slate800);
    }
 
    .img2-a {
@@ -90,7 +94,7 @@
 
    .about-p1 {
       text-align: justify;
-      color: var(--clr-slate600);
+      color: var(--clr-slate800);
    }
 
    .about-des a {
@@ -142,6 +146,7 @@
       text-align: left;
       font-size: var(--size-3xl);
       padding-bottom: 0.5rem;
+      color: var(--clr-slate800);
    }
    .about-des h2 {
       text-align: left;
@@ -152,7 +157,7 @@
 
    .about-p1 {
       text-align: justify;
-      color: var(--clr-slate600);
+      color: var(--clr-slate800);
       line-height: 1.5rem;
    }
    .resume-btn {
@@ -187,11 +192,13 @@
    .about-des h1 {
       text-align: left;
       font-size: var(--size-3xl);
+      color: var(--clr-slate800);
+
    }
    .about-des h2 {
-      text-align: left;
       font-size: var(--size-2xl);
       color: var(--clr-slate800);
+
    }
 
    .about-p1 {

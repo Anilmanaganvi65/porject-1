@@ -2,14 +2,16 @@
 @media (min-width: 300px) { 
     .contact h1{
         font-size: var(--size-3xl);
-        color: var(--clr-slate600);
+        color: var(--clr-slate800);
         text-align: center;
         padding-bottom: 2rem;
     }
     .contact p{
-        color: var(--clr-slate800);
+        color: var(--clr-slate600);
         justify-content: center;
         text-align: center;
+        width: 500px;
+        margin: auto;
     }
     .contact {
         align-items: center;

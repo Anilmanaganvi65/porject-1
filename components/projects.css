@@ -3,7 +3,7 @@
     .projects h1{
         text-align: center;
         padding-bottom: 2rem;
-        color: var(--clr-slate600);
+        color: var(--clr-slate800);
         font-size: var(--size-3xl);
     }
     .pro-first-row{
@@ -30,20 +30,21 @@
         padding: 15px;
         justify-content: center;
         text-align: center;
-        background: rgb(255, 255, 255);
         border-radius: 20px;
         cursor: pointer;
         gap: 1.5rem;
+        border: 3px solid var(--clr-rose);
+        border-radius: 25px;
+        transition: 0.3s;
     }
     .project-box:hover{
-        border: 3px solid var(--clr-rose);    
-            background: var(--clr-light);
+        transform: scale(1.03);
 
     }
     .project-box h3{
         font-size: var(--size-2xl);
         padding-bottom: 1rem;
-        color: var(--clr-slate600);
+        color: var(--clr-slate800);
     }
     .project-box p{
         font-size: var(--size-base);

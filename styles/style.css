@@ -37,18 +37,19 @@ html {
   scroll-behavior: smooth;
 }
 
-.light-mode {
+.dark-mode {
   --clr-light: #070a13;
   --clr-dark: #f1f5f9;
-  --clr-slate400: #1e293b;
-  --clr-slate600: #1e293b;
-  --clr-slate800: #1e293b;
+  --clr-slate400: #475569;
+  --clr-slate600: #475569;
+  --clr-slate800: #475569;
 }
 
 body {
   font-family: 'General Sans', sans-serif;
   background-color: var(--clr-light);
-  color: var(--clr-dark);
+  color: var(--clr-light);
+  scroll-behavior: smooth;
 }
 
 img,

@@ -2,7 +2,7 @@
 @media (min-width: 300px) {
     .srvices-header h1 {
         text-align: center;
-        color: var(--clr-slate600);
+        color: var(--clr-slate800);
         font-size: var(--size-3xl);
         padding-bottom: 1rem;
     }
@@ -16,7 +16,7 @@
         align-items: center;
         justify-content: center;
         height: 25rem;
-        background: #caced1;
+        /* background: #caced1; */
         gap: 2rem;
     }
 
@@ -57,7 +57,6 @@
 @media (min-width: 375px) {
     .srvices-header h1 {
         text-align: center;
-        color: var(--clr-slate600);
         font-size: var(--size-3xl);
         padding-bottom: 1rem;
     }
@@ -71,14 +70,14 @@
         align-items: center;
         justify-content: center;
         height: 25rem;
-        background: #caced1;
         gap: 1rem;
+        border: 3px solid var(--clr-rose);
+        border-radius: 25px;
+        transition: 0.3s;
     }
 
     .web-dev:hover {
-        border: 3px solid var(--clr-rose);
-        border-radius: 25px;
-        background-color: var(--clr-light);
+        transform: scale(1.03);
     }
 
     .services-box {
