@@ -10,5 +10,16 @@ const mobilenav = () => {
         headerBtn.classList.toggle('mob-active');
         mobilenav.classList.toggle('mob-active');
     }
+    const darkTheme =() => {
+        const ThmemeBtn =document.getElementById('theme');
+        ThmemeBtn.addEventListener('click',
+        function anil(){
+            document.body.style.overflowY="hidden";
+            mobilenav.style.display="none";
+        }
+        )
+    }
 }
 export default mobilenav;
+
+
